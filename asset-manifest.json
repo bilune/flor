@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flor/static/css/main.084389a3.chunk.css",
+    "main.css": "/flor/static/css/main.5ddcac8a.chunk.css",
     "main.js": "/flor/static/js/main.eaa6298f.chunk.js",
     "main.js.map": "/flor/static/js/main.eaa6298f.chunk.js.map",
     "runtime-main.js": "/flor/static/js/runtime-main.6370101d.js",
@@ -8,9 +8,9 @@
     "static/js/2.a5b8314e.chunk.js": "/flor/static/js/2.a5b8314e.chunk.js",
     "static/js/2.a5b8314e.chunk.js.map": "/flor/static/js/2.a5b8314e.chunk.js.map",
     "index.html": "/flor/index.html",
-    "precache-manifest.98ac0406ae55057da855e7c73c2b92d3.js": "/flor/precache-manifest.98ac0406ae55057da855e7c73c2b92d3.js",
+    "precache-manifest.4ac4d8dea51ba907dc16d87517fdcbf7.js": "/flor/precache-manifest.4ac4d8dea51ba907dc16d87517fdcbf7.js",
     "service-worker.js": "/flor/service-worker.js",
-    "static/css/main.084389a3.chunk.css.map": "/flor/static/css/main.084389a3.chunk.css.map",
+    "static/css/main.5ddcac8a.chunk.css.map": "/flor/static/css/main.5ddcac8a.chunk.css.map",
     "static/js/2.a5b8314e.chunk.js.LICENSE.txt": "/flor/static/js/2.a5b8314e.chunk.js.LICENSE.txt",
     "static/media/bullying-afiche.jpg": "/flor/static/media/bullying-afiche.45582c69.jpg",
     "static/media/bullying-afichegris.jpg": "/flor/static/media/bullying-afichegris.02a1181e.jpg",
@@ -66,7 +66,7 @@
   "entrypoints": [
     "static/js/runtime-main.6370101d.js",
     "static/js/2.a5b8314e.chunk.js",
-    "static/css/main.084389a3.chunk.css",
+    "static/css/main.5ddcac8a.chunk.css",
     "static/js/main.eaa6298f.chunk.js"
   ]
 }
