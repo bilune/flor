@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/flor/static/css/main.084389a3.chunk.css",
-    "main.js": "/flor/static/js/main.27854fc9.chunk.js",
-    "main.js.map": "/flor/static/js/main.27854fc9.chunk.js.map",
+    "main.js": "/flor/static/js/main.ad6e1f0a.chunk.js",
+    "main.js.map": "/flor/static/js/main.ad6e1f0a.chunk.js.map",
     "runtime-main.js": "/flor/static/js/runtime-main.6370101d.js",
     "runtime-main.js.map": "/flor/static/js/runtime-main.6370101d.js.map",
     "static/js/2.a5b8314e.chunk.js": "/flor/static/js/2.a5b8314e.chunk.js",
     "static/js/2.a5b8314e.chunk.js.map": "/flor/static/js/2.a5b8314e.chunk.js.map",
     "index.html": "/flor/index.html",
-    "precache-manifest.ae166732c3c074f3db0b170ed04c2d49.js": "/flor/precache-manifest.ae166732c3c074f3db0b170ed04c2d49.js",
+    "precache-manifest.50ce4d2d3686da2a8b4286ff1712c37c.js": "/flor/precache-manifest.50ce4d2d3686da2a8b4286ff1712c37c.js",
     "service-worker.js": "/flor/service-worker.js",
     "static/css/main.084389a3.chunk.css.map": "/flor/static/css/main.084389a3.chunk.css.map",
     "static/js/2.a5b8314e.chunk.js.LICENSE.txt": "/flor/static/js/2.a5b8314e.chunk.js.LICENSE.txt",
@@ -67,6 +67,6 @@
     "static/js/runtime-main.6370101d.js",
     "static/js/2.a5b8314e.chunk.js",
     "static/css/main.084389a3.chunk.css",
-    "static/js/main.27854fc9.chunk.js"
+    "static/js/main.ad6e1f0a.chunk.js"
   ]
 }
