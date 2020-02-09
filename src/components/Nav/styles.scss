@@ -1,0 +1,9 @@
+.nav {
+  &__brand {
+    position: relative;
+    z-index: 100;
+  }
+  &__link {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
