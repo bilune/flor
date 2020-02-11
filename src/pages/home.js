@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Hero from '../components/Hero';
+import Presentation from '../components/Presentation';
 import Article from '../components/Article';
+import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 
 import works from '../works.json';
@@ -9,10 +10,11 @@ import works from '../works.json';
 const Home = () => {
   return (
     <>
+      <Hero />
       <Container>
         <Row className="my-5 py-5">
           <Col>
-            <Hero title="Hola, soy Flor Herrera – una diseñadora gráfica de Bahía Blanca, Argentina." />
+            <Presentation title="Hola, soy Flor Herrera – una diseñadora gráfica de Bahía Blanca, Argentina." />
           </Col>
         </Row>
       </Container>

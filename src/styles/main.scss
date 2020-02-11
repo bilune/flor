@@ -1,12 +1,13 @@
 @import 'bootstrap/scss/bootstrap';
 @import './fonts.scss';
-@import '../components/Hero/styles';
+@import '../components/Presentation/styles';
 @import '../components/Article/styles';
 @import '../components/Nav/styles';
 @import '../components/About/styles';
 @import '../components/Form/styles';
 @import '../components/WorkDetail/styles';
 @import '../components/Footer/styles';
+@import '../components/Hero/styles';
 @import './router';
 
 body {
