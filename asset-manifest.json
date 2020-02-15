@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/flor/static/css/main.525f9286.chunk.css",
-    "main.js": "/flor/static/js/main.6dd6d120.chunk.js",
-    "main.js.map": "/flor/static/js/main.6dd6d120.chunk.js.map",
+    "main.css": "/flor/static/css/main.ec02a81a.chunk.css",
+    "main.js": "/flor/static/js/main.587fbdc4.chunk.js",
+    "main.js.map": "/flor/static/js/main.587fbdc4.chunk.js.map",
     "runtime-main.js": "/flor/static/js/runtime-main.6370101d.js",
     "runtime-main.js.map": "/flor/static/js/runtime-main.6370101d.js.map",
-    "static/js/2.a511a862.chunk.js": "/flor/static/js/2.a511a862.chunk.js",
-    "static/js/2.a511a862.chunk.js.map": "/flor/static/js/2.a511a862.chunk.js.map",
+    "static/js/2.2adc3da2.chunk.js": "/flor/static/js/2.2adc3da2.chunk.js",
+    "static/js/2.2adc3da2.chunk.js.map": "/flor/static/js/2.2adc3da2.chunk.js.map",
     "index.html": "/flor/index.html",
-    "precache-manifest.733f8898d1dce7af7ba7430c7c028f9b.js": "/flor/precache-manifest.733f8898d1dce7af7ba7430c7c028f9b.js",
+    "precache-manifest.08d2b083075a6e3448d435ff3d3e57a2.js": "/flor/precache-manifest.08d2b083075a6e3448d435ff3d3e57a2.js",
     "service-worker.js": "/flor/service-worker.js",
-    "static/css/main.525f9286.chunk.css.map": "/flor/static/css/main.525f9286.chunk.css.map",
-    "static/js/2.a511a862.chunk.js.LICENSE.txt": "/flor/static/js/2.a511a862.chunk.js.LICENSE.txt",
+    "static/css/main.ec02a81a.chunk.css.map": "/flor/static/css/main.ec02a81a.chunk.css.map",
+    "static/js/2.2adc3da2.chunk.js.LICENSE.txt": "/flor/static/js/2.2adc3da2.chunk.js.LICENSE.txt",
     "static/media/bullying-afiche.jpg": "/flor/static/media/bullying-afiche.45582c69.jpg",
     "static/media/bullying-afichegris.jpg": "/flor/static/media/bullying-afichegris.02a1181e.jpg",
     "static/media/caidalibre-conmarcador.jpg": "/flor/static/media/caidalibre-conmarcador.903a2362.jpg",
@@ -42,9 +42,7 @@
     "static/media/fm-varios.jpg": "/flor/static/media/fm-varios.c749ac8a.jpg",
     "static/media/hecescaninas-afichesho.jpg": "/flor/static/media/hecescaninas-afichesho.0c1e2f68.jpg",
     "static/media/hecescaninas.jpg": "/flor/static/media/hecescaninas.b408ef00.jpg",
-    "static/media/hero-video.mp4": "/flor/static/media/hero-video.b4fae410.mp4",
-    "static/media/hero-video1.mp4": "/flor/static/media/hero-video1.96abadf7.mp4",
-    "static/media/hero-video2.mp4": "/flor/static/media/hero-video2.aef0e9d7.mp4",
+    "static/media/hero-video.mp4": "/flor/static/media/hero-video.aef0e9d7.mp4",
     "static/media/kandinsky.jpg": "/flor/static/media/kandinsky.43dfea23.jpg",
     "static/media/kandinskyfrente.jpg": "/flor/static/media/kandinskyfrente.5518c03a.jpg",
     "static/media/logo.svg": "/flor/static/media/logo.0cb38d9a.svg",
@@ -69,8 +67,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6370101d.js",
-    "static/js/2.a511a862.chunk.js",
-    "static/css/main.525f9286.chunk.css",
-    "static/js/main.6dd6d120.chunk.js"
+    "static/js/2.2adc3da2.chunk.js",
+    "static/css/main.ec02a81a.chunk.css",
+    "static/js/main.587fbdc4.chunk.js"
   ]
 }

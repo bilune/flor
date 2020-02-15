@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a2b079f25d3f5173f7fffc3ccf30409",
+    "revision": "b12dd5f8c236699474d7ef104d77f38b",
     "url": "/flor/index.html"
   },
   {
-    "revision": "c4e5b4e153267a7bda0b",
-    "url": "/flor/static/css/main.525f9286.chunk.css"
+    "revision": "3fe9fc277e0c3f5f84d8",
+    "url": "/flor/static/css/main.ec02a81a.chunk.css"
   },
   {
-    "revision": "1189835131241b71e6ea",
-    "url": "/flor/static/js/2.a511a862.chunk.js"
+    "revision": "79ccc72893313844aefd",
+    "url": "/flor/static/js/2.2adc3da2.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/flor/static/js/2.a511a862.chunk.js.LICENSE.txt"
+    "url": "/flor/static/js/2.2adc3da2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4e5b4e153267a7bda0b",
-    "url": "/flor/static/js/main.6dd6d120.chunk.js"
+    "revision": "3fe9fc277e0c3f5f84d8",
+    "url": "/flor/static/js/main.587fbdc4.chunk.js"
   },
   {
     "revision": "30714fe28c9ab236372f",
@@ -144,16 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flor/static/media/hecescaninas.b408ef00.jpg"
   },
   {
-    "revision": "b4fae41096c583a15d5d43c383a4b98a",
-    "url": "/flor/static/media/hero-video.b4fae410.mp4"
-  },
-  {
-    "revision": "96abadf7e123e78f381b172c455217fc",
-    "url": "/flor/static/media/hero-video1.96abadf7.mp4"
-  },
-  {
     "revision": "aef0e9d76281fd9f3ca31d91635eeb32",
-    "url": "/flor/static/media/hero-video2.aef0e9d7.mp4"
+    "url": "/flor/static/media/hero-video.aef0e9d7.mp4"
   },
   {
     "revision": "43dfea23e4801351acbb9d13b6a2c8ea",
