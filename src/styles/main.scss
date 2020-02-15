@@ -1,4 +1,7 @@
-@import 'bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+$color-secondary: $warning;
+
 @import './fonts.scss';
 @import '../components/Presentation/styles';
 @import '../components/Article/styles';
@@ -11,7 +14,7 @@
 @import './router';
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   overflow: overlay;
   scroll-behavior: smooth;
 }

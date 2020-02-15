@@ -30,7 +30,7 @@ const ScrollRestoration = props => {
 
 const Router = () => {
   return (
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Nav />
       <Route path="*">
         {({ location }) => (

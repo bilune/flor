@@ -1,18 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
-import { Col } from 'reactstrap';
+import { Col, Button } from 'reactstrap';
 const getImg = require.context('../../assets/images', true);
 
 const Article = ({ id, image, title, description, invert }) => {
   return (
-    <Link className="article row py-5" to={`/works/${id}`}>
+    <article className="article row my-5 my-md-0">
       <Col md="6" className={clsx(invert && 'offset-md-1')}>
-        {image && (
-          <div className="article__image-container">
-            <img className="article__image" src={getImg('./' + image)} alt="" />
-          </div>
-        )}
+        <Link to={`/works/${id}`}>
+          {image && (
+            <div className="article__image-container">
+              <img
+                className="article__image"
+                src={getImg('./' + image)}
+                alt={title}
+              />
+            </div>
+          )}
+        </Link>
       </Col>
       <Col
         md="5"
@@ -21,13 +27,27 @@ const Article = ({ id, image, title, description, invert }) => {
           'flex-column',
           'justify-content-center',
           !invert && 'offset-md-1',
-          invert && 'order-first'
+          invert && 'order-md-first',
+          'my-3 my-md-0'
         )}
       >
-        <h2 className="article__title">{title}</h2>
-        <p className="article__description">{description}</p>
+        <Link to={`/works/${id}`}>
+          <h2 className="article__title">{title}</h2>
+          <p className="article__description">{description}</p>
+        </Link>
+        <Button
+          outline={!invert}
+          className={clsx(
+            'article__button',
+            invert ? 'align-self-start' : 'align-self-end'
+          )}
+          color="warning"
+          size="sm"
+        >
+          Más proyectos como este
+        </Button>
       </Col>
-    </Link>
+    </article>
   );
 };
 

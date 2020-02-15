@@ -17,6 +17,12 @@
     top: 0;
     bottom: 0;
     height: 100%;
+
+    @include media-breakpoint-down(sm) {
+      position: relative;
+      height: 300px;
+      margin-bottom: 32px;
+    }
   }
 
   &__image {
@@ -27,16 +33,22 @@
   }
 
   &__title {
-    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 600;
     font-size: 32px;
     color: #393939;
     margin-bottom: 32px;
+    position: relative;
+    z-index: 100;
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+      margin-top: 24px;
+    }
   }
 
   &__text {
-    p:nth-child(2) {
+    p:first-child {
       font-size: 22px;
       margin-bottom: 24px;
     }
@@ -46,7 +58,16 @@
     }
     margin-left: 48px;
     font-size: 18px;
-    margin-left: 300px;
     max-width: 620px;
+    margin-left: 300px;
+    @include media-breakpoint-down(sm) {
+      margin-left: 0;
+      padding: 0 24px;
+    }
+  }
+
+  &__paragraphs {
+    position: relative;
+    z-index: 100;
   }
 }

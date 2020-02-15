@@ -1,49 +1,50 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
+  Nav as RsNav,
   NavItem,
-  NavLink
+  NavLink as RsNavLink
 } from 'reactstrap';
 
-const Example = props => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  const location = useLocation();
+  const isHome = location.pathname === '/';
   return (
     <div>
-      <Navbar color="white" light expand="md" className="py-4 px-5">
-        <NavbarBrand className="nav__brand" tag={Link} to="/">
+      <Navbar light={!isHome} dark={isHome} expand="md" className="nav py-4 px-5">
+        <NavbarBrand className="nav__brand" tag={NavLink} to="/">
           Flor Herrera
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <RsNav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className="nav__link" tag={Link} to="/">
-                Work
-              </NavLink>
+              <RsNavLink exact className="nav__link" tag={NavLink} to="/">
+                Trabajos
+              </RsNavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav__link" tag={Link} to="/about">
-                About
-              </NavLink>
+              <RsNavLink exact className="nav__link" tag={NavLink} to="/about">
+                Sobre Mí
+              </RsNavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav__link" tag={Link} to="/contact">
-                Contact
-              </NavLink>
+              <RsNavLink exact className="nav__link" tag={NavLink} to="/contact">
+                Contacto
+              </RsNavLink>
             </NavItem>
-          </Nav>
+          </RsNav>
         </Collapse>
       </Navbar>
     </div>
   );
 };
 
-export default Example;
+export default Nav;
