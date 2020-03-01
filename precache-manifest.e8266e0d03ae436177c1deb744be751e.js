@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cd77af640a76c0c5f0f375fd93f1268",
+    "revision": "8d0942c53c7f4165fa87034f8745cfc4",
     "url": "/flor/index.html"
   },
   {
-    "revision": "a404c01e6b97988d0024",
-    "url": "/flor/static/css/main.5541e5d1.chunk.css"
+    "revision": "ebbc4df03b0d06a4e8b1",
+    "url": "/flor/static/css/main.be1aeeb9.chunk.css"
   },
   {
-    "revision": "d0ee8d6749bfa3a5e0c6",
-    "url": "/flor/static/js/2.9afdd358.chunk.js"
+    "revision": "994c4b216a9f4fa1fa1a",
+    "url": "/flor/static/js/2.badb4387.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/flor/static/js/2.9afdd358.chunk.js.LICENSE.txt"
+    "url": "/flor/static/js/2.badb4387.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a404c01e6b97988d0024",
-    "url": "/flor/static/js/main.6719cc71.chunk.js"
+    "revision": "ebbc4df03b0d06a4e8b1",
+    "url": "/flor/static/js/main.c727080b.chunk.js"
   },
   {
     "revision": "30714fe28c9ab236372f",
@@ -154,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5518c03a8a99d8ee373e973260f3242d",
     "url": "/flor/static/media/kandinskyfrente.5518c03a.jpg"
+  },
+  {
+    "revision": "cb44d1466dd5d8d1ec664e4d9fa1744d",
+    "url": "/flor/static/media/logo-black.cb44d146.svg"
   },
   {
     "revision": "0cb38d9a92d336101503603602942138",

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/flor/static/css/main.5541e5d1.chunk.css",
-    "main.js": "/flor/static/js/main.6719cc71.chunk.js",
-    "main.js.map": "/flor/static/js/main.6719cc71.chunk.js.map",
+    "main.css": "/flor/static/css/main.be1aeeb9.chunk.css",
+    "main.js": "/flor/static/js/main.c727080b.chunk.js",
+    "main.js.map": "/flor/static/js/main.c727080b.chunk.js.map",
     "runtime-main.js": "/flor/static/js/runtime-main.6370101d.js",
     "runtime-main.js.map": "/flor/static/js/runtime-main.6370101d.js.map",
-    "static/js/2.9afdd358.chunk.js": "/flor/static/js/2.9afdd358.chunk.js",
-    "static/js/2.9afdd358.chunk.js.map": "/flor/static/js/2.9afdd358.chunk.js.map",
+    "static/js/2.badb4387.chunk.js": "/flor/static/js/2.badb4387.chunk.js",
+    "static/js/2.badb4387.chunk.js.map": "/flor/static/js/2.badb4387.chunk.js.map",
     "index.html": "/flor/index.html",
-    "precache-manifest.d1e89b83701f863ce6883d735e1a7677.js": "/flor/precache-manifest.d1e89b83701f863ce6883d735e1a7677.js",
+    "precache-manifest.e8266e0d03ae436177c1deb744be751e.js": "/flor/precache-manifest.e8266e0d03ae436177c1deb744be751e.js",
     "service-worker.js": "/flor/service-worker.js",
-    "static/css/main.5541e5d1.chunk.css.map": "/flor/static/css/main.5541e5d1.chunk.css.map",
-    "static/js/2.9afdd358.chunk.js.LICENSE.txt": "/flor/static/js/2.9afdd358.chunk.js.LICENSE.txt",
+    "static/css/main.be1aeeb9.chunk.css.map": "/flor/static/css/main.be1aeeb9.chunk.css.map",
+    "static/js/2.badb4387.chunk.js.LICENSE.txt": "/flor/static/js/2.badb4387.chunk.js.LICENSE.txt",
     "static/media/bullying-afiche.jpg": "/flor/static/media/bullying-afiche.45582c69.jpg",
     "static/media/bullying-afichegris.jpg": "/flor/static/media/bullying-afichegris.02a1181e.jpg",
     "static/media/caidalibre-conmarcador.jpg": "/flor/static/media/caidalibre-conmarcador.903a2362.jpg",
@@ -45,6 +45,7 @@
     "static/media/hero-video.mp4": "/flor/static/media/hero-video.aef0e9d7.mp4",
     "static/media/kandinsky.jpg": "/flor/static/media/kandinsky.43dfea23.jpg",
     "static/media/kandinskyfrente.jpg": "/flor/static/media/kandinskyfrente.5518c03a.jpg",
+    "static/media/logo-black.svg": "/flor/static/media/logo-black.cb44d146.svg",
     "static/media/logo.svg": "/flor/static/media/logo.0cb38d9a.svg",
     "static/media/me.jpg": "/flor/static/media/me.08105180.jpg",
     "static/media/miski-folleto-frente.jpg": "/flor/static/media/miski-folleto-frente.36bf9952.jpg",
@@ -67,8 +68,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6370101d.js",
-    "static/js/2.9afdd358.chunk.js",
-    "static/css/main.5541e5d1.chunk.css",
-    "static/js/main.6719cc71.chunk.js"
+    "static/js/2.badb4387.chunk.js",
+    "static/css/main.be1aeeb9.chunk.css",
+    "static/js/main.c727080b.chunk.js"
   ]
 }
