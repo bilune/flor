@@ -1,7 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const About = ({ image }) => {
+  const sendEmail = e => {
+    e.preventDefault();
+    const { dataset } = e.target;
+    window.location.href = `mailto:${dataset.name}@${dataset.domain}.${dataset.tld}`;
+    return false;
+  };
   return (
     <div className="about">
       <div className="about__text">
@@ -25,7 +31,16 @@ const About = ({ image }) => {
           <p>
             Siempre abierta a nuevos desafíos y en constante proceso de
             aprendizaje. Si querés saber más sobre mí,{' '}
-            <Link to="/contact">contactame</Link>.
+            <a
+              data-name="f.herrera"
+              data-domain="hotmail"
+              data-tld="com.ar"
+              href="/#"
+              onClick={sendEmail}
+            >
+              contactame
+            </a>
+            .
           </p>
         </div>
       </div>
