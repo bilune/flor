@@ -3,7 +3,7 @@
     "id": "basta-de-bullying",
     "title": "Basta de bullying",
     "description": "Afiche realizado para promocionar la conferencia de prensa que se brindó en el shopping, en prevención del bullying. Trabajo ficticio para la materia Comunicación.",
-    "categories": "afiche",
+    "category": "afiches",
     "cover": "bullying-afichegris.jpg",
     "images": ["bullying-afichegris.jpg", "bullying-afiche.jpg"]
   },
@@ -11,7 +11,7 @@
     "id": "junta-los-desechos",
     "title": "Junta los desechos",
     "description": "Afiche realizado en pos de prevenir y mantener la limpieza de la ciudad, creando conciencia de la importancia de levantar las heces caninas. Trabajo ficticio para la materia Comunicación.",
-    "categories": "afiche",
+    "category": "afiches",
     "cover": "hecescaninas-afichesho.jpg",
     "images": ["hecescaninas-afichesho.jpg", "hecescaninas.jpg"]
   },
@@ -19,7 +19,7 @@
     "id": "equus",
     "title": "Equus",
     "description": "Conjunto de afiches promocionales de la obra teatral Equus, llevada a cabo en el teatro Don Bosco. Ambas piezas, sumamente visuales, respetan el estilo del afiche original. Trabajo ficticio realizado para la materia Tecnología II.",
-    "categories": "afiche",
+    "category": "afiches",
     "cover": "equus-afiche1.jpg",
     "images": ["equus-afiches.jpg", "equus-underground.jpg"]
   },
@@ -27,7 +27,7 @@
     "id": "caida-libre",
     "title": "Caída Libre",
     "description": "Cubierta de libro, diseñada para la secuela de la exitosa saga Túneles, de los escritores Roderick Gordon y Brian Williams. Trabajo ficticio realizado para la materia Tipografía II.",
-    "categories": "librosyrevista",
+    "category": "libros-y-revistas",
     "cover": "caidalibre-frente.jpg",
     "images": ["caidalibre-conmarcador.jpg", "caidalibre-dorso.jpg", "caidalibre-marcadores.jpg", "caidalibre-pila.jpg", "caidalibre-frenteydorso.jpg"]
   },
@@ -35,7 +35,7 @@
     "id": "fiesta-monstruo",
     "title": "Fiesta Monstruo",
     "description": "Pieza informativa realizada para el primer festival de corto documental en los Museos de Arte. La misma, está inspirada del folleto original presentado por los organizadores. Trabajo ficticio realizado para la materia Taller de Diseño.",
-    "categories": "librosyrevistas",
+    "category": "libros-y-revistas",
     "cover": "fm-varios.jpg",
     "images": ["fm-tapa.jpg", "fm-interior2y3.jpg", "fm-interior3.jpg", "fm-interior4y5.copia.jpg", "fm-tapaydorso.jpg"]
   },
@@ -43,7 +43,7 @@
     "id": "libro-kandinsky",
     "title": "Libro Kandinsky",
     "description": "Rediseño de la cubierta del libro De lo espiritual al arte, de Wassily Kandinsky. Trabajo ficticio realizado para la meteria Taller de Diseño.",
-    "categories": "librosyrevistas",
+    "category": "libros-y-revistas",
     "cover": "kandinskyfrente.jpg",
     "images": ["kandinskyfrente.jpg", "kandinsky.jpg"]
   },
@@ -51,7 +51,7 @@
     "id": "folleto-contra-la-violencia",
     "title": "Folleto contra la violencia",
     "description": "Rediseño del folleto informativo presentado porel servicio local Promover, para la ayuda y prevención de violencia familiar y maltrato infantil. Trabajo realizado en la materia Taller de Diseño II.",
-    "categories": "librosyrevistas",
+    "category": "libros-y-revistas",
     "cover": "ntc-presentacion.jpg",
     "images": ["ntc-doblado.jpg", "ntc-deplegado-dorso.jpg", "ntc-desplegado-frente.jpg", "ntc-presentacion.jpg"]
   },
@@ -59,7 +59,7 @@
     "id": "revista-por-doquier",
     "title": "Revista Por Doquier",
     "description": "Diseño de tapa y páginas internas de la revista Por Doquier, en la edición especial de la ciudad Ushuaia. Varias de las fotografías que fueron utilizadas, son de producción propia. Trabajo final presentado para la meteria Gráfica Asistida por Computadora.",
-    "categories": "librosyrevistas",
+    "category": "libros-y-revistas",
     "cover": "revistaushuaia-interior.jpg",
     "images": ["revistaushuaia-tapa.jpg", "revistaushuaia-interior(2).jpg", "revistaushuaia-interior.jpg"]
   },
@@ -67,7 +67,7 @@
     "id" : "identidad-carlo-di-marco",
     "title": "Identidad Carlo Di Marco",
     "description": "Creación de la identidad corporativa para el modisto Carlo Di Marco, desde el diseño de la marca y las piezas adicionales, como la papelería. Trabajo realizado para la materia Diseño Institucional.",
-    "categories": "identidad",
+    "category": "identidad",
     "cover": "cdm-tarjetaylibreta.jpg",
     "images": ["cdm-logo.jpg", "cdm-tarjetaylibreta.jpg", "cdm-tarjetasdos.jpg", "cdm-libreta.jpg", "cdm-tarjetas.jpg"]
   },
@@ -75,7 +75,7 @@
     "id": "mieles-organicas-miski",
     "title": "Mieles orgánicas Miski",
     "description": "Diseño de identidad corporativa y packaging de frascos para las Mieles orgánicas Miski. Una edición especial de tres modelos de frascos con distintos sabores en una presentación especial, con logo y ilustración hecha a mano. Trabajo realizado en colaboración, para la materia Diseño Institucional.",
-    "categories": "identidad",
+    "category": "identidad",
     "cover": "miski-frascos.jpg",
     "images": ["miski-logo.jpg", "miski-frascos.jpg", "miski-folleto-frente.jpg", "miski-folleto.jpg", "miski-packaging.jpg"]
   },
@@ -83,7 +83,7 @@
     "id": "postales-felisa-me-muero",
     "title": "Postales Felisa me muero",
     "description": "Postal caligráfica realizada en tamaño postal y reproducida en un afiche para exterior.",
-    "categories": "caligrafia",
+    "category": "caligrafía",
     "cover": "felisamemuero.jpg",
     "images": ["felisamemuero.jpg", "felisa-urban.jpg", "felisamemuero-postales.jpg"]
   }

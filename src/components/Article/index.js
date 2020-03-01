@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { Col, Button } from 'reactstrap';
 const getImg = require.context('../../assets/images', true);
 
-const Article = ({ id, image, title, description, invert }) => {
+const Article = ({ id, image, title, description, invert, category }) => {
   return (
     <article className="article row my-5 my-md-0">
       <Col md="6" className={clsx(invert && 'offset-md-1')}>
@@ -35,7 +35,8 @@ const Article = ({ id, image, title, description, invert }) => {
           <h2 className="article__title">{title}</h2>
           <p className="article__description">{description}</p>
         </Link>
-        <Button
+        {category && <Button
+          tag={Link}
           outline={!invert}
           className={clsx(
             'article__button',
@@ -43,9 +44,10 @@ const Article = ({ id, image, title, description, invert }) => {
           )}
           color="warning"
           size="sm"
+          to={`/works/category/${category}`}
         >
           Más proyectos como este
-        </Button>
+        </Button>}
       </Col>
     </article>
   );

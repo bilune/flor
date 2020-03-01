@@ -4,12 +4,14 @@ import Presentation from '../components/Presentation';
 import Article from '../components/Article';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import groupBy from 'lodash.groupby';
 
 import works from '../works.json';
 
 const Home = () => {
   const worksContainer = useRef();
   const getRef = () => worksContainer.current;
+  const categories = groupBy(works, 'category');
   return (
     <>
       <Hero />
@@ -36,16 +38,21 @@ const Home = () => {
         style={{ background: '#f8f8f8' }}
       >
         <Container className="py-5">
-          {works.map((work, i) => (
-            <Article
-              invert={i % 2}
-              key={work.id}
-              id={work.id}
-              title={work.title}
-              description={work.description}
-              image={work.cover}
-            />
-          ))}
+          {Object.keys(categories).map((category, i) => {
+            const work = categories[category][0];
+
+            return (
+              <Article
+                invert={i % 2}
+                key={work.id}
+                id={work.id}
+                title={work.title}
+                description={work.description}
+                image={work.cover}
+                category={categories[category].length > 1 ? category : undefined}
+              />
+            );
+          })}
         </Container>
       </div>
       <Footer />

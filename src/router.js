@@ -6,6 +6,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Work from './pages/work';
+import Category from './pages/category';
 
 import Nav from './components/Nav';
 
@@ -13,7 +14,8 @@ const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/about', name: 'About', Component: About },
   { path: '/contact', name: 'Contact', Component: Contact },
-  { path: '/works/:id', name: 'Work', Component: Work }
+  { path: '/works/:id', name: 'Work', Component: Work },
+  { path: '/works/category/:id', name: 'Category', Component: Category },
 ];
 
 const ScrollRestoration = props => {
