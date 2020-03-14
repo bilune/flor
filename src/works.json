@@ -1,9 +1,61 @@
 [
   {
+    "id": "one-day-at-a-time",
+    "title": "One day at a time",
+    "description": "Lettering realizado a mano y reproducido luego, en pizarra con tizas y lápiz tiza. Qué lindo volver a lo simple, lo manual, los colores y al prueba y error!",
+    "category": "lettering",
+    "cover": "pizarra-odt.jpg",
+    "images": [
+      "pizarra-odt.jpg",
+      "pizarra-odtzoom.jpg",
+      "pizarra-boceto.jpg"
+    ]
+  },
+  {
+    "id": "almendra",
+    "title": "Almendra",
+    "description": "Rediseño de logo hecho con brushpen y luego digitalizado para la tienda de ropa \"Almendra\".\n Jugando un poco con la ilustración, las flores; logrando un diseño simple en el que convivan todas las partes para formar luego, el diseño de las bolsas de madera para las prendas.",
+    "category": "identidad",
+    "cover": "almendra-logo.jpg",
+    "images": [
+      "almendra-logo.jpg",
+      "almendra-papernbag.jpg",
+      "almendra-papernbag(2).jpg"
+    ]
+  },
+  {
+    "id": "twenty-one-pilots",
+    "title": "Twenty One Pilots poster design",
+    "description": "Diseño de pósters, enviados como propuestas para el \"Design Contest\"  realizado por Creative Allied, para Twenty One Pilots.\n Lo más lindo y satisfactorio de todo esto es que eligieron uno de ellos como ganador!",
+    "category": "afiches-y-banners",
+    "cover": "twentyonepilots-portada.jpg",
+    "images": [
+      "twentyonepilots-portada.jpg",
+      "twentyonepilots-larebelion.jpg",
+      "twentyonepilots-theessence.jpg",
+      "47ee8929862291.jpg",
+      "twentyonepilots-thenewera.jpg"
+    ]
+  },
+  {
+    "id": "meraki",
+    "title": "Meraki",
+    "description": "Diseño de logo y tarjetas de identidad para esta nueva peluquería. Meraki significa hacer algo con amor y creatividad, poniendo el alma en ello; así que qué mejor que representar esa pasión en el isotipo?!",
+    "category": "identidad",
+    "cover": "meraki-logosincirculo.jpg",
+    "images": [
+      "meraki-logosincirculo.jpg",
+      "meraki-iso.jpg",
+      "meraki-presentacion.jpg",
+      "merakil-business-card.jpg",
+      "meraki-logo(2).jpg"
+    ]
+  },
+  {
     "id": "basta-de-bullying",
     "title": "Basta de bullying",
     "description": "Afiche realizado para promocionar la conferencia de prensa que se brindó en el shopping, en prevención del bullying. Trabajo ficticio para la materia Comunicación.",
-    "category": "afiches",
+    "category": "afiches-y-banners",
     "cover": "bullying-afichegris.jpg",
     "images": ["bullying-afichegris.jpg", "bullying-afiche.jpg"]
   },
@@ -11,7 +63,7 @@
     "id": "junta-los-desechos",
     "title": "Junta los desechos",
     "description": "Afiche realizado en pos de prevenir y mantener la limpieza de la ciudad, creando conciencia de la importancia de levantar las heces caninas. Trabajo ficticio para la materia Comunicación.",
-    "category": "afiches",
+    "category": "afiches-y-banners",
     "cover": "hecescaninas-afichesho.jpg",
     "images": ["hecescaninas-afichesho.jpg", "hecescaninas.jpg"]
   },
@@ -19,7 +71,7 @@
     "id": "equus",
     "title": "Equus",
     "description": "Conjunto de afiches promocionales de la obra teatral Equus, llevada a cabo en el teatro Don Bosco. Ambas piezas, sumamente visuales, respetan el estilo del afiche original. Trabajo ficticio realizado para la materia Tecnología II.",
-    "category": "afiches",
+    "category": "afiches-y-banners",
     "cover": "equus-afiche1.jpg",
     "images": ["equus-afiches.jpg", "equus-underground.jpg"]
   },
@@ -29,7 +81,13 @@
     "description": "Cubierta de libro, diseñada para la secuela de la exitosa saga Túneles, de los escritores Roderick Gordon y Brian Williams. Trabajo ficticio realizado para la materia Tipografía II.",
     "category": "libros-y-revistas",
     "cover": "caidalibre-frente.jpg",
-    "images": ["caidalibre-conmarcador.jpg", "caidalibre-dorso.jpg", "caidalibre-marcadores.jpg", "caidalibre-pila.jpg", "caidalibre-frenteydorso.jpg"]
+    "images": [
+      "caidalibre-conmarcador.jpg",
+      "caidalibre-dorso.jpg",
+      "caidalibre-marcadores.jpg",
+      "caidalibre-pila.jpg",
+      "caidalibre-frenteydorso.jpg"
+    ]
   },
   {
     "id": "fiesta-monstruo",
@@ -37,7 +95,13 @@
     "description": "Pieza informativa realizada para el primer festival de corto documental en los Museos de Arte. La misma, está inspirada del folleto original presentado por los organizadores. Trabajo ficticio realizado para la materia Taller de Diseño.",
     "category": "libros-y-revistas",
     "cover": "fm-varios.jpg",
-    "images": ["fm-tapa.jpg", "fm-interior2y3.jpg", "fm-interior3.jpg", "fm-interior4y5.copia.jpg", "fm-tapaydorso.jpg"]
+    "images": [
+      "fm-tapa.jpg",
+      "fm-interior2y3.jpg",
+      "fm-interior3.jpg",
+      "fm-interior4y5.copia.jpg",
+      "fm-tapaydorso.jpg"
+    ]
   },
   {
     "id": "libro-kandinsky",
@@ -53,7 +117,12 @@
     "description": "Rediseño del folleto informativo presentado porel servicio local Promover, para la ayuda y prevención de violencia familiar y maltrato infantil. Trabajo realizado en la materia Taller de Diseño II.",
     "category": "libros-y-revistas",
     "cover": "ntc-presentacion.jpg",
-    "images": ["ntc-doblado.jpg", "ntc-deplegado-dorso.jpg", "ntc-desplegado-frente.jpg", "ntc-presentacion.jpg"]
+    "images": [
+      "ntc-doblado.jpg",
+      "ntc-deplegado-dorso.jpg",
+      "ntc-desplegado-frente.jpg",
+      "ntc-presentacion.jpg"
+    ]
   },
   {
     "id": "revista-por-doquier",
@@ -61,15 +130,25 @@
     "description": "Diseño de tapa y páginas internas de la revista Por Doquier, en la edición especial de la ciudad Ushuaia. Varias de las fotografías que fueron utilizadas, son de producción propia. Trabajo final presentado para la meteria Gráfica Asistida por Computadora.",
     "category": "libros-y-revistas",
     "cover": "revistaushuaia-interior.jpg",
-    "images": ["revistaushuaia-tapa.jpg", "revistaushuaia-interior(2).jpg", "revistaushuaia-interior.jpg"]
+    "images": [
+      "revistaushuaia-tapa.jpg",
+      "revistaushuaia-interior(2).jpg",
+      "revistaushuaia-interior.jpg"
+    ]
   },
   {
-    "id" : "identidad-carlo-di-marco",
+    "id": "identidad-carlo-di-marco",
     "title": "Identidad Carlo Di Marco",
     "description": "Creación de la identidad corporativa para el modisto Carlo Di Marco, desde el diseño de la marca y las piezas adicionales, como la papelería. Trabajo realizado para la materia Diseño Institucional.",
     "category": "identidad",
     "cover": "cdm-tarjetaylibreta.jpg",
-    "images": ["cdm-logo.jpg", "cdm-tarjetaylibreta.jpg", "cdm-tarjetasdos.jpg", "cdm-libreta.jpg", "cdm-tarjetas.jpg"]
+    "images": [
+      "cdm-logo.jpg",
+      "cdm-tarjetaylibreta.jpg",
+      "cdm-tarjetasdos.jpg",
+      "cdm-libreta.jpg",
+      "cdm-tarjetas.jpg"
+    ]
   },
   {
     "id": "mieles-organicas-miski",
@@ -77,14 +156,24 @@
     "description": "Diseño de identidad corporativa y packaging de frascos para las Mieles orgánicas Miski. Una edición especial de tres modelos de frascos con distintos sabores en una presentación especial, con logo y ilustración hecha a mano. Trabajo realizado en colaboración, para la materia Diseño Institucional.",
     "category": "identidad",
     "cover": "miski-frascos.jpg",
-    "images": ["miski-logo.jpg", "miski-frascos.jpg", "miski-folleto-frente.jpg", "miski-folleto.jpg", "miski-packaging.jpg"]
+    "images": [
+      "miski-logo.jpg",
+      "miski-frascos.jpg",
+      "miski-folleto-frente.jpg",
+      "miski-folleto.jpg",
+      "miski-packaging.jpg"
+    ]
   },
   {
     "id": "postales-felisa-me-muero",
     "title": "Postales Felisa me muero",
     "description": "Postal caligráfica realizada en tamaño postal y reproducida en un afiche para exterior.",
-    "category": "caligrafía",
+    "category": "lettering",
     "cover": "felisamemuero.jpg",
-    "images": ["felisamemuero.jpg", "felisa-urban.jpg", "felisamemuero-postales.jpg"]
+    "images": [
+      "felisamemuero.jpg",
+      "felisa-urban.jpg",
+      "felisamemuero-postales.jpg"
+    ]
   }
 ]

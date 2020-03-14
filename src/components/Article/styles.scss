@@ -1,6 +1,7 @@
 .article {  
   &__image-container {
     overflow: hidden;
+    height: 350px;
   }
 
   &:hover &__image {
@@ -11,6 +12,7 @@
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease-out;
+    object-fit: cover;
   }
 
   &__title {

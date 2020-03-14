@@ -3,6 +3,8 @@ import { Redirect } from 'react-router-dom';
 import { Container } from 'reactstrap';
 import works from '../works.json';
 import WorkDetail from '../components/WorkDetail';
+import Helmet from 'react-helmet';
+import Footer from '../components/Footer';
 
 const WorkPage = ({ match }) => {
   const page = useMemo(() => works.find(work => work.id === match.params.id), [
@@ -14,9 +16,13 @@ const WorkPage = ({ match }) => {
   }
 
   return (
-    <Container>
-      <WorkDetail {...page} />
-    </Container>
+    <>
+      <Container>
+        <Helmet title={page.title} />
+        <WorkDetail {...page} />
+      </Container>
+      <Footer />
+    </>
   );
 };
 
